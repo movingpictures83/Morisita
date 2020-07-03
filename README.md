@@ -2,7 +2,8 @@
 # Language: R
 # Input: CSV (abundances)
 # Output: CSV (dissimilarity)
-# Tested with: PluMA 1.0, R 3.2.5
+# Tested with: PluMA 1.1, R 4.0.0
+# Dependency: vegan_2.5.6
 
 PluMA plugin that computes dissimilarity between community samples using the Morisita Overlap (Morisita, 1959)
 as a metric.  The plugin accepts input as a CSV file with rows representing samples and columns
